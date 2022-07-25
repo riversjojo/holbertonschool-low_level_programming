@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+int main(void)
+{
+gcc -c $CFILE
+}
