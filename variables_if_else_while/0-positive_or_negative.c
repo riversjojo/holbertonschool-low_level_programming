@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+* main - program with if else for positive and negative numbers
+* Return: 0.
+*/
 int main(void)
 {
 	int n;
@@ -12,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-	printf (" %d is positive\n", n);
+	printf ("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
