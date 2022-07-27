@@ -5,9 +5,10 @@
 *
 */
 
-int print_last_digit(int i)
+int print_last_digit(int x)
 {
-	 i = i % 10;
+	int i;
+	 i = x % 10;
 
 	return (i);
 
