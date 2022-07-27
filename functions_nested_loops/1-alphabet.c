@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "main.h"
 /** 
 * main - function that prints the alphabet
@@ -10,8 +9,8 @@ int main(void)
 	int i;
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
-		putchar('\n');
+		_putchar(i);
+		_putchar('\n');
 	}
 		return (0);
 
