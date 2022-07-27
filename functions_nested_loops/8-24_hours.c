@@ -13,7 +13,7 @@ void jack_bauer(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
-			printf(x);
+			_putchar(x);
 			printf(y);
 		}
 	}
