@@ -14,7 +14,7 @@ void jack_bauer(void)
 		for (y = 0; y < 10; y++)
 		{
 			_putchar(x);
-			printf(y);
+			_putchar(y);
 		}
 	}
 
