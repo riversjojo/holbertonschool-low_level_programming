@@ -7,7 +7,7 @@
 
 void times_table(void)
 {
-	int n, i, x;
+	int i;
 	i = 0;
 
 	while (i < 10)
@@ -18,6 +18,6 @@ void times_table(void)
 	
 	}
 
-	return (0);
+
 
 }
